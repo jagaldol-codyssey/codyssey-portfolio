@@ -45,13 +45,13 @@ Chrome에서 실제 API 응답과 성공·로딩·빈 응답·403·네트워크 
 
 ## 배포
 
-현재 GitHub Pages에는 배포하지 않았습니다. 구현을 `main`에 push한 뒤 저장소의 **Settings → Pages → Deploy from a branch → main / (root)**를 선택하면 됩니다.
+GitHub Pages에서 `main` 브랜치의 루트 디렉터리를 배포합니다.
 
-배포 후 확인할 주소: <https://jagaldol-codyssey.github.io/codyssey-portfolio/>
+배포 주소: <https://jagaldol-codyssey.github.io/codyssey-portfolio/>
 
 ## 화면
 
-로컬 서버에서 실제 GitHub API 응답으로 촬영한 화면입니다.
+배포 사이트에서 실제 GitHub API 응답으로 촬영한 화면입니다.
 
 ### 데스크톱
 

@@ -1,7 +1,7 @@
 # 브라우저 검증
 
 - 날짜: 2026-09-09
-- 환경: 로컬 HTTP 서버, 설치된 Google Chrome의 headless 모드
+- 환경: 로컬 HTTP 서버 및 GitHub Pages 배포 사이트, 설치된 Google Chrome의 headless 모드
 - 방식: Playwright로 사용자 입력·스크롤·새로고침을 수행하고 DOM 상태를 확인
 - API 오류·빈 응답은 브라우저 요청 가로채기로 재현했으며, 성공 응답은 실제 GitHub API도 별도로 확인
 
@@ -18,4 +18,6 @@
 | Intersection Observer 섹션 등장 | 통과 |
 | JavaScript 실행 오류 없음 | 통과 |
 
-`node --check js/main.js` 문법 검사 통과. Python HTTP 서버로 실행했습니다. Live Server 확장 설치는 확인했으며, VS Code UI에서 실행하는 절차와 GitHub Pages 배포 후 검증은 아직 수행하지 않았습니다.
+`node --check js/main.js` 문법 검사 통과. Python HTTP 서버로 실행했습니다. GitHub Pages 배포 주소에서도 위 항목을 모두 검증했고, 일반 Chrome 창에서도 실제 저장소 카드가 표시됨을 확인했습니다. Live Server 확장 설치는 확인했으며 VS Code UI에서 실행하는 절차는 별도로 검증하지 않았습니다.
+
+배포 주소: <https://jagaldol-codyssey.github.io/codyssey-portfolio/>
